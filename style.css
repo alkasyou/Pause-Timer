@@ -1,0 +1,54 @@
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+
+.contaunerr{
+    width: 800px;
+    margin: 30px auto;
+    color: white;
+    text-align: center;
+ }
+
+
+
+ img{
+    border-radius: 50px;
+    display: inline-block;
+    margin-left: 30px;
+    
+ }
+
+ h1,h2,h3 {
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: 100;
+     font-size: 2.6rem;
+     
+ }
+
+
+ #seconds,#minuten,#stunden{
+     
+    font-size: 4em;
+    height: 100px;
+    border-radius: 20px;
+ }
+
+ button{
+     width: 100px;
+     height: 60px;
+     background-color: transparent;
+     color: aliceblue;
+     border: 2px solid wheat;
+     border-radius: 20px;
+     margin-right: 5px;
+     outline: none;
+
+ }
+
+ button:hover{
+     background: wheat;
+     color :rgba(48, 139, 71, 0.705);
+     font-weight : 800;
+ }
